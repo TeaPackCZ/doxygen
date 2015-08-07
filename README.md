@@ -34,6 +34,10 @@ Developers
 * Coverity Scan Build Status: <a href="https://scan.coverity.com/projects/2860"> <img alt="Coverity Scan Build Status" src="https://scan.coverity.com/projects/2860/badge.svg"/> </a>
 
 * Install
+  * Dependencies:
+    * flex, bison, ???
+  * If fail during "make install" because of missing file "build/latex/doxygene_manual.pdf",
+    change to real LATEX one ("build/doc/doxygene_manual.tex") in file build/doc/cmake_install.cmake
   * Quick install see (./INSTALL) 
   * else http://www.doxygen.org/manual/install.html
 
